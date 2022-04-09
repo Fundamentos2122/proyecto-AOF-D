@@ -744,7 +744,14 @@ footer{
         max-width: 300px;
         min-width: 150px;
     }
-   
+    #main-test label{
+        color: black;
+        font-size: 1.5rem;
+    }
+    #main-test h2{
+        color: black;
+        font-size: 2.5rem;
+    }
     
 }
 
@@ -778,6 +785,15 @@ footer{
     }
     .border-box{
         padding:0;
+    }
+
+    #main-test label{
+        color: black;
+        font-size: 1rem;
+    }
+    #main-test h2{
+        color: black;
+        font-size: 2rem;
     }
     
 
