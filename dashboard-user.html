@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar bg-primary">
+            <!-- LOGO -->
+            <div class="logo">Money Me</div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="services">
+                        <a href="/">Dashboard</a>
+                        <ul class="dropdown">
+                            <li><a href="#ahorros">Monitor</a></li>
+                            <li><a href="#finanzas">Mis finanzas</a></li>
+                            <li><a href="#inversiones">Mis inversiones</a></li>
+                        </ul>
+                    </li>
+                    <li class="services">
+                        <a>User</a>
+                        <ul class="dropdown">
+                            <li><a href="index.html">Log out</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+            </nav>
+    </header>
+
+    <div class="dashboard-container text-justify first">
+        <section id="ahorros" class="flex" data-state="justify-between vertical-center">
+            <div class="flex" data-state="column">
+                <h2 class="text-center color-primary">Monitor de Usuarios</h2>
+                <img src="https://picsum.photos/2000/1000" alt="">
+            </div>
+            <div class="box flex" data-state=" column vertical-center">
+                <h2>Pendientes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellat omnis cupiditate quis corrupti perferendis eveniet tempora? Veritatis quae facere quos labore molestiae in! Repellat, aliquam. Doloremque repellat velit nobis!</p>
+            </div>
+        </section>
+        <section id="finanzas" class="flex" data-state="justify-between vertical-center">
+            <div class="flex" data-state="column">
+                <h2 class="text-center color-primary">Mis finanzas</h2>
+                <img src="https://picsum.photos/2000/1001" alt="">
+            </div>
+            <div class="box flex" data-state=" column vertical-center">
+                <h2>Pendientes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellat omnis cupiditate quis corrupti perferendis eveniet tempora? Veritatis quae facere quos labore molestiae in! Repellat, aliquam. Doloremque repellat velit nobis!</p>
+            </div>
+        </section>
+        <section id="inversiones" class="flex" data-state="justify-between vertical-center">
+            <div class="flex" data-state="column">
+                <h2 class="text-center color-primary">Mis inversiones</h2>
+                <img src="https://picsum.photos/2000/1002" alt="">
+            </div>
+            <div class="box flex" data-state=" column vertical-center">
+                <h2>Resultados</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellat omnis cupiditate quis corrupti perferendis eveniet tempora? Veritatis quae facere quos labore molestiae in! Repellat, aliquam. Doloremque repellat velit nobis!</p>
+            </div>
+        </section>
+
+        <footer class="flex text-center" data-state="center vertical-center semaforo">
+            <div class="footer-box flex" data-state="column vertical-center">
+                <h2>Semáforo</h2>
+                <div class="semaforo flex" data-state="column vertical-center">
+                    <div class="dot green"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot red"></div>
+                </div>
+            </div>
+            <div class="footer-box flex border-box" data-state="column vertical-center">
+                <h2>Tu color</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="dot yellow"></div>
+            </div>
+        </footer>
+    </div>
+    
+
+</body>
+</html>
