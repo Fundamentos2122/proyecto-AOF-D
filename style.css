@@ -284,10 +284,53 @@ header{
 /** Utility-End **/
 
 .box{
-    padding: 0 var(--small-space) ;
+    padding: 0 var(--small-space);
     max-width: 400px;
     min-width: 150px;
 }
+
+.form-box{
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    padding: var(--small-space) var(--small-space);
+    min-width: 80%;
+}
+.form-box h2{
+    font-size: 35px;
+}
+.form-box label, input{
+    font-size: 25px;
+    color: var(--color-primary);
+}
+.user-box{
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    padding: var(--small-space) var(--small-space) ;
+    margin: var(--small-space) var(--small-space)  ;
+    max-width: 400px;
+    min-width: 150px;
+}
+.user-box-metas{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: var(--small-space) var(--small-space) ;
+    margin: var(--small-space) var(--small-space)  ;
+    width: 100%;
+    min-width: 150px;
+}
+.user-box-metas button{
+    margin: var(--small-space) var(--small-space);
+}
+.user-box-metas h2{
+    font-size: 30px;
+}
+.user-box-metas h3{
+    text-align: center;
+}
+.user-box  h2{
+    font-size: 30px;
+}
+
 
 .box > p {
     margin-top: var(--small-space);
@@ -467,8 +510,8 @@ header{
     font-size: 3rem;
 }
 #main-test h2{
-    color: black;
-    font-size: 4rem;
+    color: var(--color-primary);
+    font-size: 30px;
 }
 
 
@@ -682,10 +725,18 @@ footer{
     h2{
         font-size: 1.9rem;
     }
+    div[data-state~="user-description"]{
+        flex-direction: column;
+    } 
+    div[data-state~="user-list"]{
+        flex-direction: column;
+    } 
     section{
         padding: 0 var(--small-space);
         flex-wrap: wrap;
     }
+    
+    
     
 
     .box{
@@ -776,6 +827,7 @@ footer{
     .footer-box[data-state~="link"] {
         display: none;
     }
+  
     .modal input, button, a{
         font-size: 1rem;
     }
@@ -795,6 +847,9 @@ footer{
         color: black;
         font-size: 2rem;
     }
-    
+
+    .form-box{
+        max-width: 80%;
+    }
 
 }
